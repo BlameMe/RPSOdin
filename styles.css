@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #b0aea9;
+}
+
+header > h1 {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+}

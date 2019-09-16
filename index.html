@@ -12,7 +12,7 @@
   <title>Rock, Paper, Scissors</title>
 
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  
 
 </head>
 
@@ -27,19 +27,23 @@
         <span id="human-score">0</span> : <span id="ai-score">0</span>
     </div>
 
-    <div class="results">
-        <p>Rock beats Scissors! You win!</p>
-    </div>
     <div class="choices">
         <div class="choice">
             <img src="https://i.imgur.com/xsIRKFB.png" id="paper" alt="">
         </div>
-        <div class="choice">
+        <div class="choice" id="rock">
             <img src="https://i.imgur.com/kutqLab.png" alt="">
         </div>
-        <div class="choice">
+        <div class="choice" id="scissors">
             <img src="https://i.imgur.com/hpHMARJ.png" alt="">
         </div>
     </div>
+
+    <div class="results" id="action">
+        <p>Action, Action, Action!</p>
+    </div>
+    
+    <script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>

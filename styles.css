@@ -6,14 +6,93 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #edeefa;
 }
 
 header {
-    background: #b0aea9;
+    background: black;
+    padding-bottom: 5px;
 }
 
 header > h1 {
     text-align: center;
     color: blueviolet;
     font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+
+.scores {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#human-score, #ai-score {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.choices {
+    margin: auto;
+    width: 50%;
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    margin-top: 35px;
+}
+
+.choice {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.choice:hover {
+    cursor: pointer;
+
+}
+
+#paper {
+    margin-left: 10px;
+}
+
+#scissors {
+    float: right;
+    margin-right: 25px; 
+}
+
+#rock {
+    margin-left: 300px; 
+}
+
+.results {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+#human-badge {
+    width: 83px;
+    text-align: center;
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    float: left;
+    margin-top: 138px;
+    margin-left: 300px;
+
+}
+
+#ai-badge {
+    float: right;
+    width: 50px;
+    text-align: center;
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 138px;
+    margin-right: 300px;
 }
